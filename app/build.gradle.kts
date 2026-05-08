@@ -93,6 +93,9 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.3.1")
     implementation("androidx.camera:camera-view:1.3.1")
 
+//    // Optical flow and machine perception for facial recognition
+//    implementation("org.opencv:opencv:4.9.0")  // OpenCV Android Maven artifact
+
     // Tests
     testImplementation(libs.junit)
     testImplementation(libs.turbine)
